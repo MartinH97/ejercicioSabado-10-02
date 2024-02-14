@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    main{
+        background-image: url(../img/paisaje3.jpg);
+        height: 100vh;
+        background-size: 100% 100%;
+        h1{
+            color: pink;
+            font-size: 67px;
+            text-align: right;
+            padding-top: 61px;
+            padding-right: 101px;
+            text-transform: uppercase;
+        }
+        p{
+            color: skyblue;
+            margin-top: 30%;
+            font-size: 55px;
+            padding-left: 50px;
+        }
+    }
+    .about-me{
+        background-color: skyblue;
+        max-height: 100vh;
+        padding: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 123px;
+        h2{
+            color: blue;
+            text-align: center;
+            font-size: 73px;
+            padding-bottom: 55px;
+        }
+        p{
+            color: white;
+            font-size: 25px;
+        }
+        a{
+            display: block;
+            width: 300px;
+            color: white;
+            font-size: 35px;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #D16FFF;
+            padding: 30px;
+            border-radius: 30px 30px 30px 30px;
+            -webkit-border-radius: 30px 30px 30px 30px;
+            -moz-border-radius: 30px 30px 30px 30px;
+            -ms-border-radius: 30px 30px 30px 30px;
+            -o-border-radius: 30px 30px 30px 30px;
+        }
+    }
+    .skills{
+        background-color: #9022FF;
+        height: 89vh;
+        padding: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+        h2{
+            font-size: 73px;
+            text-align: center;
+            color: #26CC4B;
+        }
+    }
+    .portafolio{
+        background-color: #FFD233;
+        height: 89vh;
+        padding: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+        h2{
+            font-size: 73px;
+            text-align: center;
+            color: #26CC4B;
+        }
+        .imagen{
+            display: flex;
+            justify-content: center;
+
+            margin-top: 40px;
+            img{
+                width: 77%;
+            }
+        }
+        
+    }
+    .clientes{
+        background-color: #3F4E62;
+        height: 50vh;
+
+        padding: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+        h2{
+            text-align: center;
+            color: #ADFF28;
+            font-size: 73px;
+        }
+        .imagen-clientes{
+            display: flex;
+            justify-content: center;
+            img{
+                margin-top: 55px;
+                width: 89%;
+            }
+        }
+    }
+}
